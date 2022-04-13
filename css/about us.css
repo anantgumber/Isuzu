@@ -1,0 +1,290 @@
+body{
+	background:white;
+	
+}
+.hero-image{
+	background-image:url("img1.jpg");
+	background-position: top;
+	height:400px;
+	background-size: cover;
+	
+}
+.hero-image .start{
+	font-size:20px;
+	color:#c9b5b5;
+	margin-top:0px;
+	margin-left:90px;
+	font-weight:bold;
+	font-family:Arial Rounded MT Bold,CSS;
+}
+.start a{
+	margin-left:20px;
+}
+.logo p{
+	color:white;
+	font-weight:bold;
+	border:0.1em solid;
+	border-color:white;
+	background:none;
+	float:left;
+	position:relative;
+	top:-20px;
+	margin-left:90px;
+	padding:2px 40px;
+	font-size:50px;
+	transform:scale(1,0.8);
+}
+.top-nav{
+	background:none;
+	margin-top:55px;
+	margin-left:400px;
+	font-family:Arial Rounded MT Bold,CSS;
+}
+.top-nav a{
+	font-weight:bold;
+	color:#c9b5b5;
+	margin-left:5px;
+	margin-right:0px;
+	text-decoration:none;
+	font-size:15px;
+	padding:0 16px;
+	
+}
+.top-nav a:hover{
+	background:white;
+	color:black;
+}
+form.searchbar{
+	float:right;
+	margin-right:90px;
+}
+form.searchbar button {
+	position:relative;
+	padding:2px;
+	left:10px;
+	top:-1px;
+	background:none;
+	color:#c9b5b5;
+	font-size:12px;
+	cursor:pointer;
+	transform:scale(1.5,1);
+	font-family:Arial Rounded MT Bold,CSS;
+}
+input[type=text]{
+	background:none;
+	color:white;
+}
+.searchbar:hover{
+	background:none;
+}
+
+.hero-image .imagetext{
+	font-size:20px;
+	color:#65d875;
+	text-align:center;
+	margin-top:150px;
+	line-height:10px;
+	font-family:Arial Rounded MT Bold,CSS;
+}
+h1{
+	font-size:100px;
+	letter-spacing:3px;
+	color:white;
+}
+a.link{
+	text-decoration:none;
+	margin-right:10px;
+	color:white;
+}
+a.link:hover{
+	color:#65d875;
+}
+
+.c-about{
+	text-align:center;
+	font-size:30px;
+	font-family:Copperplate Gothic Light,CSS;
+}
+.box{
+	padding:0 0 30px 80px;
+	margin-top:20px;
+	line-height:20px;
+	font-size:18px;
+}
+.area{
+	width:550px;
+	float:left;
+	margin-right:75px;
+}
+.box:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.about-text{
+	margin-top:85px;
+	margin-bottom:50px;
+	font-family: Arial Rounded MT Bold,CSS;
+	color:#4f4949;
+}
+.what-we-do{
+	margin-bottom:20px;
+}
+.what-we-do:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.photo{
+	float:left;
+}
+.ttext{
+	float:left;
+	background:#333333;
+	padding:79px 0 0 59px;
+}
+
+.aa{
+	height:500px;
+	width:670px;
+}
+.tope{
+	font-size:35px;
+	font-family:Copperplate Gothic Light,CSS;
+	color:white;
+	margin-bottom:50px;
+}
+.first{
+	margin-right:30px;
+	line-height: 10px;
+	font-family: Arial Rounded MT Bold,CSS;
+	margin-bottom:50px;
+}
+.first i.fa{
+	color: #65d875;
+	font-size: 25px;
+}
+
+.icon-text{
+	margin-bottom: 30px;
+	float: left;
+}
+.icon-text h3{
+	font-size: 28px;
+	color: white;
+}
+.icon-text p{
+	font-size:15px;
+	color:#4f4949;
+}
+hr{
+	color: #65d875;
+	margin-top:100px;
+}
+.regard{
+	text-align:center;
+	font-family:Copperplate Gothic Light,CSS;
+	font-size:30px;
+	margin-top:100px;
+}
+.round{
+	width:100px;
+	height:100px;
+	float:left;
+	border-radius:400px;
+	border:1px solid #65d875;
+	padding:6px;
+	margin-top:20px;
+}
+.round-text{
+	float:left;
+	margin-left:30px;
+	width:345px;
+}
+.rrow{
+	float:left;
+	margin-left:110px;
+	font-family: Arial Rounded MT Bold,CSS;
+}
+.box1{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.box1:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.round-text h3{
+	font-size:25px;
+	line-height:10px;
+}
+.round-text p{
+	color:#4f4949;
+}
+.round-text i.fa{
+	font-size:35px;
+	margin-left:10px;
+	margin-right:20px;
+	color:grey;
+}
+.round-text a.insta i.fa:hover{
+	color: #3f729b ;
+} 
+.round-text a.fb i.fa:hover{
+	color:#3b5998;
+}
+.round-text a.twite i.fa:hover{
+	color:#00acee;
+}
+h3.underline{
+	text-decoration:underline 3px #65d875;
+}
+
+/*web project css file*/
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 360px;
+    background-image: url("snow3.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+	font-family:Arial Rounded MT,CSS;
+}
+
+
+.footer i.fa{
+  padding: 20px;
+  font-size:30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color:grey;
+}
+a.none{
+	text-decoration:none;
+	color:black;
+}
+a.none:hover{
+	color:#65d875;
+}
+
+.footer a.fb i.fa:hover {
+    color: #3b5998;
+}
+.footer a.insta i.fa:hover {
+    color: #3f729b ;
+}
+.footer a.twite i.fa:hover {
+	color:#00acee;
+}
+.footer a.google i.fa:hover {
+    color: #3cba54;
+}
+.footer a.rss i.fa:hover {
+    color: #ee802f ;
+}
